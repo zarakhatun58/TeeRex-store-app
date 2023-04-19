@@ -1,0 +1,14 @@
+
+.btn-addbag{background-color: #053705;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    padding: 5px;
+}
+.btn-stock{
+    background-color: yellow;
+    color: black;
+    border-radius: 6px;
+    border: none;
+    padding: 5px;
+}
