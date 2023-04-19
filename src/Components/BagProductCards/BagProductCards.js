@@ -38,11 +38,11 @@ const BagProductCards = ({
   }
 
   return (
-    <div className="col">
+    <div className="col-4">
       <div className="card">
-        <div className="product-bag-card fB w100 j-sb a-c">
+        <div className="product-bag-card fB w50 j-sb a-c">
           <div>
-            <img src={imageURL} alt={name} />
+            <img src={imageURL} alt={name}  style={{width:"340px"}}/>
           </div>
           <div>
             <h5>{name}</h5>
@@ -65,6 +65,7 @@ const BagProductCards = ({
             <button
               type="button"
               onClick={() => handleRemove(id)}
+              style={{backgroundColor:"red", border:"none", padding:"5px", color:"white", borderRadius:"5px"}}
             >
               Remove
             </button>
