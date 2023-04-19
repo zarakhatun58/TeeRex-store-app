@@ -36,7 +36,7 @@ const FilterData = () => {
 
   return (
     <>
-      <div className="filters fB d-c">
+      <div className="filters fB d-c" style={{backgroundColor:"#d1f1f1",paddingLeft:"20px"}}>
         <FitlerDataItem
           {...{
             name: "color",
